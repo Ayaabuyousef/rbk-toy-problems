@@ -1,5 +1,5 @@
 // 1-using the console calculate the average age of the follwing ages [13,14,13,15,16,17,19,13,16,15].
-console.log(13+14+13+15+16+17+19+13+16+15/10)////137.5
+console.log((13+14+13+15+16+17+19+13+16+15)/10)////137.5
 // 2-using the console calculate your age in seconds.
 console.log(25*365*24*60)//////13140000
 

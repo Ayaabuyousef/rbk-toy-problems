@@ -119,7 +119,40 @@ if (n > 0) {
  function randInt(n) { 
  return Math.floor(Math.random() * (n + 1)) 
 
-
+var upperBound=6;
+    var x=randInt(upperBound);
+    var i=1
+  function guessMyNumber(n) {
+  	var h=0;
+  	for (i;i<=10;i++)
+  	{
+         if (n > upperBound) {
+         return 'Out of bounds! Please try a number between 0 and '+upperBound;
+ } else if (n === x) {
+ 	if(i===1)
+{
+	return 'Congratulations! You guessed my number on the first try!';
+}
+ else return 'You guessed my number in '+i+' guesses.';
+ h++;
+ upperBound++;
+ }
+ else {
+ 	if(n>=upperBound/2)
+ 	{
+ 	return "Nope! That wasn't it! you are too close to the answer it's "+x;
+ } else {"Nope! That wasn't it! you are too far from the answer it's "+x
+ }
+upperBound--;
+}
+if(h===h+1){
+	return h+' New high score!!';
+ }
+}
+}
+ function randInt(n) {
+ return Math.floor(Math.random() * (n + 1))
+ }
 
 
 

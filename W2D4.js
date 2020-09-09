@@ -29,6 +29,16 @@ You cannot have the keys
 // 4.Write a function called max that takes two numbers as parameters, 
 //and returns the larger one.
 
+function max(n1,n2){
+	if(n1>n2){
+		return n1;
+	} else return n2;
+}
 
 // 5.Write a function called  min that takes two numbers as parameters,
 // and returns the smaller one.
+function min(num1,num2){
+	if (num1<num2){
+		return num1;
+	}else return num2;
+}
