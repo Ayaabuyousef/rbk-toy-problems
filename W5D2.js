@@ -46,5 +46,5 @@ function map(coll, f) {
 	  each(coll,function(element,key){
 	  	acc[key]=f(element,key)
 	  })
-	 return acc;
+	 return acc
 }
