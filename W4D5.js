@@ -28,4 +28,4 @@ function getPeopleBornIn(arr, month) {
 	}
 	return x
 }
-getPeopleBornIn(staff, 'August') 
+getPeopleBornIn(staff, 'August') .

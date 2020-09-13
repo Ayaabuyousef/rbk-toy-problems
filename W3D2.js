@@ -53,7 +53,7 @@ and returns the given string after Flip every pair of characters.
 Example:
 var input = 'check out how interesting this problem is, it\'s insanely
 interesting!';
-var output = flipPairs(input);
+var output =  (input);
 console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei
 ,si 't sniasenyli tnreseitgn!*/
 
